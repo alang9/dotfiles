@@ -1,0 +1,14 @@
+[alias]
+        lol = log --graph --date-order --pretty='format:%C(yellow)%h%d%Creset %s %C(cyan)%ae%Creset %C(green)%ar%Creset'
+	    lola = log --all --graph --date-order --pretty='format:%C(yellow)%h%d%Creset %s %C(cyan)%ae%Creset %C(green)%ar%Creset'
+        s = status --short -b
+        ix = diff --cached
+        g = grep --color
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+[user]
+	email = me@alang.ca
+	name = Alex Lang
